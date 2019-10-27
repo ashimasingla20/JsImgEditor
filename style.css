@@ -57,10 +57,15 @@ html,body{
   border: solid 1px #1fd5ad;
   border-radius: 2px;
 }
-  .btn-success:hover{
-    background-color: #1CCAA1;
-    border: solid 1px #1CCAA1;
-  }
+.btn-success a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-success:hover{
+  background-color: #1CCAA1;
+  border: solid 1px #1CCAA1;
+}
 
 .customForm{
   background-color: #e4ebf1;
